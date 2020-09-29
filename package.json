@@ -17,7 +17,15 @@
   },
   "homepage": "https://github.com/pommet99/node-js#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "mongoose-data-seed": "^2.1.6"
+  },
+  "mdSeed": {
+    "seedersFolder": "./src/db/seed"
+  },
+  "devDependencies": {
+    "faker": "^5.1.0"
   }
-
 }
